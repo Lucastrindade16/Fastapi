@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from models.models import Categoria
-from utils.db_utils import executar_insert, executar_select
+from utils.crud import executar_insert, executar_select
 
 router = APIRouter(prefix="/categoria")
 
