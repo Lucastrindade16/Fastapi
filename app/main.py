@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from routes import ator_serie, avaliacao_serie, categoria, serie, motivos_assistir, delete, update
+from routes import ator_serie, avaliacao_serie, categoria, serie, motivos_assistir, delete
 
 app = FastAPI()
 
