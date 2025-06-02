@@ -5,11 +5,6 @@ class Delete(BaseModel):
     tabela: str
     id: int
 
-class UpdateItem(BaseModel):
-    tabela: str
-    nome: str
-    valores: Dict[str, Any]
-
 class Serie(BaseModel):
     id: int
     titulo: str
